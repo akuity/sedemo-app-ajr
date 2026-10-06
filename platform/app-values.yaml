@@ -21,3 +21,5 @@ rollouts:
 environments:
   staging: true
 
+labels:
+  purpose: "Akuity Demo"
