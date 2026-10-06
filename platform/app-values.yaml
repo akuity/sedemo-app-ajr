@@ -21,5 +21,3 @@ rollouts:
 environments:
   staging: true
 
-labels:
-  purpose: "Demo Akuity"
