@@ -119,16 +119,15 @@ spec:
     metadata:
       labels:
         app: "sedemo-app-ajr-app"
-        purpose: Demo Akuity
     spec:
       containers:
-        - image: "ghcr.io/akuity/sedemo-app-ajr:4"
+        - image: "ghcr.io/akuity/sedemo-app-ajr:5"
           name: "sedemo-app-ajr-app"
           ports:
             - containerPort: 80
           env:
             - name: SEMVER
-              value: "4"
+              value: "5"
             - name: STAGE
               value: dev
             - name: NAMESPACE
